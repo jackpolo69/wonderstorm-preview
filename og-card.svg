@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf9" />
+      <stop offset="0.62" stop-color="#faf7f2" />
+      <stop offset="1" stop-color="#eaf5fa" />
+    </linearGradient>
+    <radialGradient id="storm" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8fd6f5" stop-opacity="0.72" />
+      <stop offset="0.46" stop-color="#1a6fb5" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#0c487c" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.7" fill="#0c487c" opacity="0.055" />
+    </pattern>
+    <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="28" flood-color="#0a3358" flood-opacity="0.16" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#ground)" />
+  <rect width="1200" height="630" fill="url(#grain)" />
+  <circle cx="1060" cy="316" r="430" fill="url(#storm)" />
+  <circle cx="1080" cy="316" r="244" fill="none" stroke="#0c487c" stroke-opacity="0.12" stroke-width="2" />
+  <circle cx="1080" cy="316" r="184" fill="none" stroke="#f4582f" stroke-opacity="0.18" stroke-width="2" stroke-dasharray="3 12" />
+  <path d="M992 98 1116 316 992 534" fill="none" stroke="#f9b233" stroke-opacity="0.34" stroke-width="3" />
+
+  <g transform="translate(72 48)">
+    <image href="assets/wonderstorm-emblem.svg" x="0" y="0" width="104" height="104" preserveAspectRatio="xMidYMid meet" />
+    <image href="assets/wonderstorm-wordmark-navy.svg" x="122" y="6" width="330" height="86" preserveAspectRatio="xMinYMid meet" />
+  </g>
+
+  <g transform="translate(76 208)" filter="url(#soft-shadow)">
+    <text x="0" y="0" fill="#17222e" font-family="Arial Narrow, Arial, sans-serif" font-size="88" font-weight="800" letter-spacing="-3">LEADERSHIP</text>
+    <text x="0" y="92" fill="#17222e" font-family="Arial Narrow, Arial, sans-serif" font-size="88" font-weight="800" letter-spacing="-3">IS PRACTICED.</text>
+    <rect x="2" y="114" width="356" height="9" rx="5" fill="#f4582f" />
+    <rect x="358" y="114" width="118" height="9" rx="5" fill="#f9b233" />
+  </g>
+
+  <text x="78" y="456" fill="#5b6472" font-family="Arial, sans-serif" font-size="29" font-weight="400">
+    <tspan x="78" dy="0">A proving ground for young heroes</tspan>
+    <tspan x="78" dy="41">who will transform the world.</tspan>
+  </text>
+
+  <g transform="translate(78 560)">
+    <circle cx="7" cy="-7" r="7" fill="#f4582f" />
+    <text x="28" y="0" fill="#0c487c" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="3">LAGUNA HILLS, CALIFORNIA</text>
+  </g>
+</svg>
